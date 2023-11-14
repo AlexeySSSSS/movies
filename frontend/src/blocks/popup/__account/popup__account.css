@@ -1,0 +1,29 @@
+.popup__account {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 34px;
+  border-radius: 20px;
+  background: #f9f9f9;
+  border: none;
+  margin-bottom: 91px;
+  padding: 0;
+  width: 100px;
+  height: 32px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: opacity 0.2s linear;
+}
+
+.popup__account:hover {
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 600px) {
+  .popup__account {
+    margin-bottom: 49px;
+  }
+}

@@ -1,0 +1,16 @@
+.search__box[type=checkbox] {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+}
+
+.search__box:checked+.search__lab {
+    background: white;
+    transition: 0.3s;
+}
+
+.search__box:checked+.search__lab:after {
+    left: calc(100% - 5px);
+    transform: translateX(-100%);
+    background: #2BE080;
+}

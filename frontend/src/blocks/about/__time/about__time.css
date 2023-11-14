@@ -1,0 +1,24 @@
+.about__time {
+  display: grid;
+  grid-template-columns: 228px minmax(auto, 1fr);
+  margin-left: 70px;
+  margin-right: 70px;
+  row-gap: 14px;
+}
+
+@media screen and (max-width: 1100px) {
+  .about__time {
+    grid-template-columns: 140px minmax(auto, 1fr);
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about__time {
+    grid-template-columns: 100px minmax(auto, 1fr);
+    margin-left: 18px;
+    margin-right: 18px;
+    row-gap: 6px;
+  }
+}

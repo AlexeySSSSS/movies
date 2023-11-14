@@ -1,0 +1,24 @@
+.header__reg {
+  color: #fff;
+  font-size: 12px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  cursor: pointer;
+  border: none;
+  background: none;
+  padding: 0;
+  text-decoration: none;
+  transition: opacity 0.2s linear;
+}
+
+.header__reg:hover {
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 600px) {
+  .header__reg {
+    font-size: 10px;
+  }
+}

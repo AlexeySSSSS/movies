@@ -1,0 +1,11 @@
+.header__text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+@media screen and (max-width: 600px) {
+  .header__text {
+    overflow: hidden;
+  }
+}

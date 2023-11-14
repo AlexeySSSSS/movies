@@ -1,0 +1,19 @@
+.login__reg {
+  color: #a0a0a0;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 17px;
+  margin-bottom: 17px;
+}
+
+@media screen and (max-width: 600px) {
+  .login__reg {
+    font-size: 12px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+  }
+}

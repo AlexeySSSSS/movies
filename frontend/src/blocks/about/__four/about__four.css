@@ -1,0 +1,19 @@
+.about__four {
+  color: #000;
+  text-align: center;
+  font-size: 14px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background: #f2f2f2;
+  line-height: 38px;
+  width: 100%;
+  margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .about__four {
+    font-size: 11px;
+  }
+}

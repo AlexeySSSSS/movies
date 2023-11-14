@@ -1,0 +1,32 @@
+.search__lab {
+  cursor: pointer;
+  text-indent: -9999px;
+  width: 36px;
+  height: 20px;
+  background: white;
+  transition: 0.3s;
+  display: block;
+  border-radius: 100px;
+  position: relative;
+  box-shadow: 1px 6px 8px rgba(0, 0, 0, 0.1);
+}
+
+.search__lab:hover {
+  opacity: 0.6;
+}
+
+.search__lab:after {
+  content: "";
+  position: absolute;
+  top: 1px;
+  left: 3px;
+  width: 15px;
+  height: 15px;
+  background: gray;
+  border-radius: 90px;
+  transition: 0.3s;
+}
+
+.search__lab:active:after {
+  width: 13px;
+}

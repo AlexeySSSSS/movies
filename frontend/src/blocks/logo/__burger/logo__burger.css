@@ -1,0 +1,20 @@
+.logo__burger {
+  display: none;
+}
+
+@media screen and (max-width: 1100px) {
+  .logo__burger {
+    display: flex;
+    margin-top: 15px;
+    height: 44px;
+    width: 44px;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .logo__burger {
+    width: 39px;
+    height: 35px;
+  }
+}

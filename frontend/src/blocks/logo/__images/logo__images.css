@@ -1,0 +1,10 @@
+.logo__images {
+  background: white;
+}
+
+@media screen and (max-width: 600px) {
+  .logo__images {
+    width: 40px;
+    height: 43px;
+  }
+}

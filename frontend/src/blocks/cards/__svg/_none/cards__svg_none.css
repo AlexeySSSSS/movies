@@ -1,0 +1,8 @@
+.cards__svg_none {
+  opacity: 1;
+  background: no-repeat url(../../../../images/save3.svg) center;
+  font-size: 0;
+  margin-left: 25px;
+  z-index: 1;
+  pointer-events: none;
+}

@@ -1,0 +1,9 @@
+.reg__logo {
+  width: 36px;
+  height: 36px;
+  transition: opacity 0.2s linear;
+}
+
+.reg__logo:hover {
+  opacity: 0.6;
+}

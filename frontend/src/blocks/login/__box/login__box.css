@@ -1,0 +1,13 @@
+.login__box {
+  display: flex;
+  width: 396px;
+  flex-direction: column;
+  margin-top: 42px;
+}
+
+@media screen and (max-width: 600px) {
+  .login__box {
+    width: 260px;
+    margin-top: 80px;
+  }
+}

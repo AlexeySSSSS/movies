@@ -1,0 +1,13 @@
+.popup__close {
+  background: none;
+  border: none;
+  margin-top: 20px;
+  margin-left: 448px;
+}
+
+@media screen and (max-width: 600px) {
+  .popup__close {
+    margin-left: 263px;
+    margin-top: 10px;
+  }
+}

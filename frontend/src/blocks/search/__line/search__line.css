@@ -1,0 +1,12 @@
+.search__line {
+  height: 69px;
+  border-radius: 8px;
+  border: 2px solid rgba(170, 170, 170, 0.2);
+  margin-top: 69px;
+}
+
+@media screen and (max-width: 600px) {
+  .search__line {
+    height: 54px;
+  }
+}

@@ -1,0 +1,26 @@
+.footer__title {
+  color: #a0a0a0;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 79px;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+@media screen and (max-width: 1100px) {
+  .footer__title {
+    padding-top: 44px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footer__title {
+    padding-top: 27px;
+    font-size: 12px;
+  }
+}

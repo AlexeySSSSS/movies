@@ -1,0 +1,27 @@
+.about__text {
+  color: #000;
+  font-size: 20px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.8px;
+  margin-bottom: 25px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+}
+
+@media screen and (max-width: 1100px) {
+  .about__text {
+    margin-bottom: 22px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about__text {
+    font-size: 18px;
+    letter-spacing: -0.72px;
+    margin-bottom: 17px;
+  }
+}

@@ -1,0 +1,33 @@
+.accounts__btn {
+  text-decoration: none;
+  border: none;
+  background: none;
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 0;
+  margin-top: 205px;
+  cursor: pointer;
+  transition: opacity 0.2s linear;
+}
+
+.accounts__btn:hover {
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 1100px) {
+  .accounts__btn {
+    margin-top: 196px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .accounts__btn {
+    margin-top: 364px;
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,18 @@
+.search__btn {
+  display: flex;
+  margin-top: 28px;
+  padding-bottom: 43px;
+}
+
+@media screen and (max-width: 1100px) {
+  .search__btn {
+    padding-bottom: 49px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .search__btn {
+    margin-top: 31px;
+    padding-bottom: 61px;
+  }
+}

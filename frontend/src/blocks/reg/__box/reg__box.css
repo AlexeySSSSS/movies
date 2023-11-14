@@ -1,0 +1,19 @@
+.reg__box {
+  display: flex;
+  width: 396px;
+  flex-direction: column;
+  padding-top: 70px;
+}
+
+@media screen and (max-width: 1100px) {
+  .reg__box {
+    padding-top: 255px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .reg__box {
+    padding-top: 57px;
+    align-items: center;
+  }
+}

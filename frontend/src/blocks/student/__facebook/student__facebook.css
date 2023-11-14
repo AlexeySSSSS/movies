@@ -1,0 +1,15 @@
+.student__facebook {
+  text-decoration: none;
+  color: #000;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+  transition: opacity 0.2s linear;
+}
+
+.student__facebook:hover {
+  opacity: 0.6;
+}

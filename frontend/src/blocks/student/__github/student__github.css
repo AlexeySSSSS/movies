@@ -1,0 +1,22 @@
+.student__github {
+  text-decoration: none;
+  color: #000;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 21px;
+  cursor: pointer;
+  transition: opacity 0.2s linear;
+}
+
+.student__github:hover {
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 600px) {
+  .student__github {
+    margin-left: 26px;
+  }
+}

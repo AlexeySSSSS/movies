@@ -1,0 +1,21 @@
+.btn {
+  display: flex;
+  height: 166px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 42px;
+  margin-bottom: 64px;
+  align-items: center;
+}
+
+@media screen and (max-width: 1100px) {
+  .btn {
+    margin-bottom: 43px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .btn {
+    margin-bottom: 28px;
+  }
+}

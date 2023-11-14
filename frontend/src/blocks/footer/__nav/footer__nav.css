@@ -1,0 +1,12 @@
+.footer__nav {
+  margin-top: 18px;
+}
+
+@media screen and (max-width: 600px) {
+  .footer__nav {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

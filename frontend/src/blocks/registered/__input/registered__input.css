@@ -1,0 +1,19 @@
+.registered__input {
+  border-radius: 8px;
+  background: #f9f9f9;
+  height: 46px;
+  max-width: 378px;
+  border: none;
+  margin-bottom: 20px;
+  color: #000;
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 15px;
+}
+
+.registered__input:focus {
+  outline: rgb(43, 224, 128) 3px solid;
+}

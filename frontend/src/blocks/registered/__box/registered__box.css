@@ -1,0 +1,13 @@
+.registered__box {
+  display: flex;
+  width: 396px;
+  flex-direction: column;
+  margin-top: 42px;
+}
+
+@media screen and (max-width: 600px) {
+  .registered__box {
+    width: 260px;
+    margin-top: 81px;
+  }
+}

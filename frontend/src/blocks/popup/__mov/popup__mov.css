@@ -1,0 +1,27 @@
+.popup__mov {
+  color: #000;
+  text-align: right;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  background: none;
+  border: none;
+  margin-right: 8px;
+  margin-top: 29px;
+  padding-right: 0;
+  cursor: pointer;
+  text-decoration: none;
+  transition: opacity 0.2s linear;
+}
+
+.popup__mov:hover {
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 600px) {
+  .popup__mov {
+    margin-top: 26px;
+  }
+}

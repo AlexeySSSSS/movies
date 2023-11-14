@@ -1,0 +1,11 @@
+.accounts__mail {
+  display: flex;
+  width: 410px;
+  margin-top: 4px;
+}
+
+@media screen and (max-width: 600px) {
+  .accounts__mail {
+    width: 260px;
+  }
+}

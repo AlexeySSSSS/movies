@@ -1,0 +1,17 @@
+.accounts__input {
+  color: #000;
+  text-align: right;
+  font-family: Inter;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  width: calc(100% - 22px);
+  height: 38px;
+}
+
+.accounts__input:focus {
+  outline: rgb(43, 224, 128) 3px solid;
+  border-radius: 2px;
+}
